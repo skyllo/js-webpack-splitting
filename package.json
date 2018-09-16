@@ -1,0 +1,19 @@
+{
+  "name": "js-webpack-splitting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "skyllo <skyllo@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/* && webpack --config webpack.config.babel.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
